@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2001/12/soap-envelope" SOAP-ENV:encodingStyle="http://www.w3.org/2001/12/soap-encoding" >
+  <SOAP-ENV:Body xmlns:hsp="http://projects.awgm.co/hindsightpeople" >
+    <hsp:Person>
+      <hsp:name>
+        <hsp:fname>Andrew</hsp:fname>
+        <hsp:lname>Graham</hsp:lname>
+      </hsp:name>
+      <hsp:phone>0426198866</hsp:phone>
+      <hsp:address>
+        <hsp:streetNo>188</hsp:streetNo>
+        <hsp:street>Caple</hsp:street>
+        <hsp:city>Willagee</hsp:city>
+        <hsp:state>Western Australia</hsp:state>
+        <hsp:country>Australia</hsp:country>
+        <hsp:postcode>6156</hsp:postcode>
+        <hsp:location>
+          <hsp:lat>-32.08827512</hsp:lat>
+          <hsp:long>115.77613492</hsp:long>
+        </hsp:location>
+      </hsp:address>
+    </hsp:Person>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2001/12/soap-envelope" SOAP-ENV:encodingStyle="http://www.w3.org/2001/12/soap-encoding" >
+  <SOAP-ENV:Body xmlns:hse="http://projects.awgm.co/hindsightevents" >
+      <hse:Event>
+        <hse:eventid>1</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.21976036</hse:lat>
+          <hse:long>115.79785824</hse:long>
+        </hse:location>
+        <hse:datetimestamp>01/Jan/2017 01:32:00</hse:datetimestamp>
+        <hse:context context="tweet">
+            <hse:data>This is some tweet in my day</hse:data>
+        </hse:context>
+      </hse:Event>
+      <hse:Event>
+        <hse:eventid>2</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.96728287</hse:lat>
+          <hse:long>115.92893859</hse:long>
+        </hse:location>
+        <hse:datetimestamp>01/Jan/2017 05:46:38</hse:datetimestamp>
+        <hse:context context="facebook-status-update">
+            <hse:data>This is some status update in my day</hse:data>
+        </hse:context>
+      </hse:Event>
+      <hse:Event>
+        <hse:eventid>3</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.14609264</hse:lat>
+          <hse:long>115.8578493</hse:long>
+        </hse:location>
+        <hse:datetimestamp>01/Jan/2017 17:23:11</hse:datetimestamp>
+        <hse:context context="photo">
+          <hse:data>/photos/image.jpg</hse:data>
+        </hse:context>
+      </hse:Event>
+      <hse:Event>
+        <hse:eventid>4</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.045836</hse:lat>
+          <hse:long>115.73429171</hse:long>
+        </hse:location>
+        <hse:datetimestamp>01/Jan/2017 21:44:36</hse:datetimestamp>
+        <hse:context context="video">
+          <hse:data>/videos/film.mp4</hse:data>
+          <hse:start-time>
+            <hse:datetimestamp>02/Jan/2017 05:18:18</hse:datetimestamp>
+          </hse:start-time>
+          <hse:end-time>
+            <hse:datetimestamp>02/Jan/2017 08:09:40</hse:datetimestamp>
+          </hse:end-time>
+        </hse:context>
+      </hse:Event>
+      <hse:Event>
+        <hse:eventid>5</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.05885339</hse:lat>
+          <hse:long>115.84163384</hse:long>
+        </hse:location>
+        <hse:datetimestamp>03/Jan/2017 03:24:10</hse:datetimestamp>
+        <hse:context context="tracklog">
+            <hse:data>/tracklog/track.gpx</hse:data>
+            <hse:data></hse:data>
+            <hse:start-time>
+              <hse:datetimestamp>03/Jan/2017 12:49:34</hse:datetimestamp>
+            </hse:start-time>
+            <hse:end-time>
+              <hse:datetimestamp>03/Jan/2017 14:27:04</hse:datetimestamp>
+            </hse:end-time>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>6</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.05885339</hse:lat>
+          <hse:long>115.84163384</hse:long>
+        </hse:location>
+        <hse:datetimestamp>03/Jan/2017 15:25:45</hse:datetimestamp>
+        <hse:context context="tracklog">
+            <hse:data>/tracklog/thatdogchasedmeforages.gpx</hse:data>
+            <hse:data></hse:data>
+            <hse:start-time>
+              <hse:datetimestamp>03/Jan/2017 12:49:34</hse:datetimestamp>
+            </hse:start-time>
+            <hse:end-time>
+              <hse:datetimestamp>03/Jan/2017 14:27:04</hse:datetimestamp>
+            </hse:end-time>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>7</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.11476411</hse:lat>
+          <hse:long>115.99700751</hse:long>
+        </hse:location>
+        <hse:datetimestamp>03/Jan/2017 16:28:09</hse:datetimestamp>
+<hse:context context="tweet">
+    <hse:data>what's up with that thing? @_awgm #trendyphrase #anentiresentencewithoutspaces</hse:data>
+</hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>8</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.03479204</hse:lat>
+          <hse:long>115.65112868</hse:long>
+        </hse:location>
+        <hse:datetimestamp>03/Jan/2017 16:28:09</hse:datetimestamp>
+        <hse:context context="facebook-status-update">
+            <hse:data>OMG I can't believe that thing I read said that thing I don't agree with!</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>9</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.08410487</hse:lat>
+          <hse:long>115.74556282</hse:long>
+        </hse:location>
+        <hse:datetimestamp>04/Jan/2017 00:02:03</hse:datetimestamp>
+                        <hse:context context="facebook-status-update">
+            <hse:data>Here's a thing I found on the internet that is now my core belief system</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>10</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.98399392</hse:lat>
+          <hse:long>115.93728614</hse:long>
+        </hse:location>
+        <hse:datetimestamp>04/Jan/2017 03:38:21</hse:datetimestamp>
+        <hse:context context="photo">
+          <hse:data>/photos/foodonaplate.jpg</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>11</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.07714349</hse:lat>
+          <hse:long>115.99216954</hse:long>
+        </hse:location>
+       <hse:datetimestamp>04/Jan/2017 03:55:07</hse:datetimestamp>
+        <hse:context context="video">
+          <hse:data>/videos/tryingtogetyoutubefamous.mp4</hse:data>
+          <hse:start-time>
+            <hse:datetimestamp>02/Jan/2017 05:18:18</hse:datetimestamp>
+          </hse:start-time>
+          <hse:end-time>
+            <hse:datetimestamp>02/Jan/2017 08:09:40</hse:datetimestamp>
+          </hse:end-time>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>12</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.9707101</hse:lat>
+          <hse:long>115.84076776</hse:long>
+        </hse:location>
+       <hse:datetimestamp>04/Jan/2017 04:46:20</hse:datetimestamp>
+        <hse:context context="googleplus">
+            <hse:data>How do I root my iPhone8?</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>13</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.96177789</hse:lat>
+          <hse:long>115.76011844</hse:long>
+        </hse:location>
+        <hse:datetimestamp>04/Jan/2017 05:21:51</hse:datetimestamp>
+<hse:context context="instagram">
+    <hse:data>/photos/selfie.jpg</hse:data>
+    <hse:data>hey world! Look at me</hse:data>
+</hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>14</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.05858637</hse:lat>
+          <hse:long>115.74428951</hse:long>
+        </hse:location>
+       <hse:datetimestamp>04/Jan/2017 09:45:03</hse:datetimestamp>
+                                <hse:context context="photo">
+          <hse:data>/photos/whatdoesthisbuttondo.jpg</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>15</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.89693035</hse:lat>
+          <hse:long>115.84246372</hse:long>
+        </hse:location>
+     <hse:datetimestamp>04/Jan/2017 13:28:26</hse:datetimestamp>
+                <hse:context context="tracklog">
+            <hse:data>/tracklog/wentforarun-butgotlost.gpx</hse:data>
+            <hse:data></hse:data>
+            <hse:start-time>
+              <hse:datetimestamp>06/Jan/2017 18:48:31</hse:datetimestamp>
+            </hse:start-time>
+            <hse:end-time>
+              <hse:datetimestamp>06/Jan/2017 21:46:09</hse:datetimestamp>
+            </hse:end-time>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>16</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.04828892</hse:lat>
+          <hse:long>115.96093842</hse:long>
+        </hse:location>
+    <hse:datetimestamp>04/Jan/2017 14:38:58</hse:datetimestamp>
+<hse:context context="tweet">
+    <hse:data>Something constroversial #Idontagree</hse:data>
+</hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>17</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.00089441</hse:lat>
+          <hse:long>115.6646535</hse:long>
+        </hse:location>
+     <hse:datetimestamp>06/Jan/2017 21:46:09</hse:datetimestamp>
+                <hse:context context="facebook-status-update">
+            <hse:data>what do you mean Facebook tracks everything I post?</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>18</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.94516388</hse:lat>
+          <hse:long>115.68602317</hse:long>
+        </hse:location>
+   <hse:datetimestamp>05/Jan/2017 07:07:31</hse:datetimestamp>
+                <hse:context context="photo">
+          <hse:data>/photos/dogdidsomethingcute.jpg</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>19</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.98993873</hse:lat>
+          <hse:long>115.89840107</hse:long>
+        </hse:location>
+      <hse:datetimestamp>05/Jan/2017 15:10:04</hse:datetimestamp>
+                <hse:context context="video">
+          <hse:data>/videos/accidentlyrecordinginmypocket.mp4</hse:data>
+          <hse:start-time>
+            <hse:datetimestamp>05/Jan/2017 15:10:04</hse:datetimestamp>
+          </hse:start-time>
+          <hse:end-time>
+            <hse:datetimestamp>05/Jan/2017 23:10:04</hse:datetimestamp>
+          </hse:end-time>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>20</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.0431252</hse:lat>
+          <hse:long>115.97059014</hse:long>
+        </hse:location>
+   <hse:datetimestamp>06/Jan/2017 01:22:50</hse:datetimestamp>
+                <hse:context context="googleplus">
+            <hse:data>what's this Facebook thing I've heard about?</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>21</hse:eventid>
+        <hse:location>
+          <hse:lat>-31.92827861</hse:lat>
+          <hse:long>115.68837196</hse:long>
+        </hse:location>
+    <hse:datetimestamp>06/Jan/2017 02:49:18</hse:datetimestamp>
+<hse:context context="instagram">
+    <hse:data>/photos/breakfast.jpg</hse:data>
+    <hse:data>look! It's food, omg it's on a plate!</hse:data>
+</hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>22</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.07492757</hse:lat>
+          <hse:long>115.78411039</hse:long>
+        </hse:location>
+    <hse:datetimestamp>06/Jan/2017 10:42:45</hse:datetimestamp>
+                        <hse:context context="photo">
+          <hse:data>/photos/catisbeingacat.jpg</hse:data>
+        </hse:context>
+      </hse:Event>
+            <hse:Event>
+        <hse:eventid>23</hse:eventid>
+        <hse:location>
+          <hse:lat>-32.11464208</hse:lat>
+          <hse:long>115.93968099</hse:long>
+        </hse:location>
+     <hse:datetimestamp>06/Jan/2017 10:45:27</hse:datetimestamp>
+<hse:context context="instagram">
+    <hse:data>/photos/google-image-result-048498349834.jpg</hse:data>
+    <hse:data>I hate fake people! #therealest</hse:data>
+</hse:context>
+      </hse:Event>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
